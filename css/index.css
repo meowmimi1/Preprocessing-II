@@ -1,6 +1,8 @@
 .btn {
   border-radius: 12px;
   padding: 10px 55px;
+  background: #17A2B8;
+  color: #FFFFFF;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -197,6 +199,11 @@ nav p {
   color: black;
   padding: 3rem;
 }
+@media (max-width: 500px) {
+  .nav-items a {
+    marginright: 0px;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -261,6 +268,7 @@ header {
 }
 header h1 {
   margin: 20px 0px;
+  border-bottom: 2px dashed gray;
 }
 header .header-container {
   margin: 0 auto;
